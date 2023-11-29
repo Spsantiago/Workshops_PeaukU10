@@ -7,26 +7,25 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/reset.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Volkhov:wght@700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Volkhov:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../styles/index.css">
-    
+
 </head>
 
 <body>
     <header>
         <nav class="container-fluid">
             <div class="row">
-                <div class="col-3 d-flex justify-content-center align-items-center">
+                <div class="col-3 d-flex justify-content-space-between align-items-center">
                     <span id="subtitle"><a href="#" class="nav-link">Trabook</a></span>
                     <img src="../img/logo.png" alt="logo" class="logo" />
                 </div>
 
-                <div class="options col-5 d-flex justify-content-center align-items-center">
+                <div class="options col-6 d-flex justify-content-center align-items-center">
                     <ul>
                         <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">About</a></li>
@@ -35,7 +34,7 @@
                         <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
                     </ul>
                 </div>
-                
+
 
                 <div class="col-3 d-flex justify-content-end align-items-center gap-3">
                     <button id="btn-login" class="btn ">Login</button>
@@ -46,48 +45,119 @@
         </nav>
     </header>
 
-<section class="justify-content-center row align-content-center">
-    <div class="card col-4 mt-5 border-light ">
-        <div class="card-body">
-          <h2 class="card-title title-banner">Get started your exciting <span class="span-color-banner">journey</span> with us.</h2>
-          <p class="card-text text-banner mt-5 lh-lg col-11 mb-3">A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place</p>
-          <a href="#" id="btn-banner" class="btn mt-4">Discover Now</a>
+    <section class="justify-content-center row mt-5">
+        <div class="card col-6 border-0 align-items-center justify-content-center">
+            <div>
+                <h2 class="card-title big-title-banner">Get started your exciting <span
+                        class="span-color-banner">journey</span> with us.</h2>
+                <p class="card-text text-banner mt-5 lh-lg col-11 mb-3">A Team of experienced tourism professionals will
+                    provide you with the best advice and tips for your desire place</p>
+                <a href="#" id="btn-banner" class="btn mt-4">Discover Now</a>
+            </div>
         </div>
-      </div>
-      <img src="../img/logo-principal.jpg" alt="logo banner principal" class="col-5 m-0 p-0"/>
- 
-      <div class="justify-content-center row mt-4 options-banner"> 
-        <ul class="nav col-6 align-content-center nav-banner ">
-            <li class="nav-item dropdown">
-                <a class="nav-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Location</a><br>
-                <span class="span-options-banner">where are you going</span>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Date</a><br>
-              <span class="span-options-banner">when you will go</span>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Guest</a><br>
-                <span class="span-options-banner">Number of guest</span>  
-            </li>
-            <li class="nav-item dropdown">
-                <a id="btn-option-banner" class="btn nav-item" role="button">Explore Now</a>
-            </li>
-          </ul>
-      </div>
-</section>
+        <img src="../img/logo-principal.png" alt="logo banner principal" class="col-6 m-0 p-0 justify-content-start" />
 
-    <!-- Section 2 Things you need to do ->
+        <div class="justify-content-center row mt-5 options-banner">
+            <ul class="nav col-6 align-content-center nav-banner ">
+                <li class="nav-item dropdown">
+                    <a class="nav-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Location</a><br>
+                    <span class="span-options-banner">where are you going</span>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Date</a><br>
+                    <span class="span-options-banner">when you will go</span>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Guest</a><br>
+                    <span class="span-options-banner">Number of guest</span>
+                </li>
+                <li class="nav-item dropdown">
+                    <a id="btn-option-banner" class="btn nav-item" role="button">Explore Now</a>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-    <! -- Section 3 Exclusive deals & discounts ->
+    <!-- Section 2 Things you need to do -->
 
-    <! -- Section 4 Vacation Plan ->
+    <section class="things-you-need-to-do justify-content-center row mt-5 mb-5">
+        <div class="justify-content-center row mt-5">
+            <div class="col-4 border-0 mt-5 align-items-center justify-content-center">
+                <div>
+                    <h2 class="card-title title-banner">Things you need <span class="span-color-banner">to do</span>
+                    </h2>
+                    <p class="card-text small-text-banner mt-5 lh-lg mb-3">We ensure that you’ll embark on a
+                        perfectly planned, safe vacation at a price you can afford. </p>
+                </div>
+            </div>
+            <div class="col-1 border-0 mt-5 align-items-center justify-content-center">
+                <img src="../img/aviones.png" alt="viajes" class=" img-smart m-0 p-0 justify-content-start" />
+            </div>
+        </div>
 
-    <! -- Section 5 Testimonial ->
 
-    <! -- Section 6 Blog ->
 
-    <! -- Section 7 Footer -->
+        <div id="cards-section2" class="justify-content-center row mt-5 options-banner">
+            <!-- cards  -->
+            <div class="col-4 border-0 mt-5 align-items-center justify-content-center">
+                <div class="card p-2">
+                    <div class="card-body">
+                        <img src="../icons/planning.svg" alt="Sign Up"
+                            class="img-cards m-0 p-0 justify-content-start" />
+                        <h5 class="card-title mt-5">Sign Up</h5>
+                        <p class="card-text mt-3">Completes all the work associated with planning and processing.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 border-0 mt-5 align-items-center justify-content-center">
+                <div class="card p-2">
+                    <div class="card-body">
+                        <img src="../icons/wallet.svg" alt="Sign Up" class="img-cards m-0 p-0 justify-content-start" />
+                        <h5 class="card-title mt-5">Worth of Money</h5>
+                        <p class="card-text mt-3">After successful access then book from exclusive deals & pricing.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 border-0 mt-5 align-items-center justify-content-center">
+                <div class="card p-2">
+                    <div class="card-body">
+                        <img src="../icons/gps.svg" alt="Sign Up" class="img-cards m-0 p-0 justify-content-start" />
+                        <h5 class="card-title mt-5">Exciting Travel
+                        </h5>
+                        <p class="card-text mt-3">Start and explore a wide range of exciting travel experience.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 3 Exclusive deals & discounts -->
+
+    <section class="justify-content-center row mt-5">
+
+        <div class="col-8 border-0 mt-5 align-items-center justify-content-center">
+            <div>
+                <h2 class="card-title title-banner">Exclusive <span class="span-color-banner">deals & discountso</span>
+                </h2>
+                <p class="card-text small-text-banner mt-2 lh-lg mb-3 p-5">Discover our fantastic early booking
+                    discounts & start planning your journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 Vacation Plan -->
+
+    <!-- Section 5 Testimonial -->
+
+    <!-- Section 6 Blog -->
+
+    <!-- Section 7 Footer -->
 
 
 </body>

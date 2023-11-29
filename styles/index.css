@@ -1,6 +1,6 @@
 
 body {
-    max-width: 1400px;
+    max-width: 1200px;
     height: 100vh;
     padding: 2em 1em;
     margin: 0 auto;
@@ -63,6 +63,7 @@ ul{
     margin: 0.3rem;
 }
 
+
 .options ul {
     list-style: none;
     margin: 0;
@@ -76,13 +77,26 @@ ul{
 .span-color-banner{
     color: #fa7436;
 }
-.title-banner{
+.big-title-banner{
     font-family: 'Volkhov', serif;
-    font-size: 2.8rem;
+    font-size: 64px;
+}
+
+.title-banner{
+    text-align: center;
+    font-family: 'Volkhov', serif;
+    font-size: 48px;
 }
 .text-banner{
     color: #666666;
-    font-size: small;
+    font-size: 20px;
+    
+}
+
+.small-text-banner{
+    color: #666666;
+    font-size: 18px;
+    text-align: center;
 }
 #btn-banner{
     border: #fa7436 solid 1.2px;
@@ -122,4 +136,30 @@ ul{
 .options-banner ul li a{
     color: #000;
     text-decoration: none;
+}
+
+.img-smart{
+    width: 140px;
+    height: 130px;
+}
+
+.things-you-need-to-do{
+    background-color: #F7F8FC;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    
+}
+
+#cards-section2{
+    max-width: 1200px;
+    margin-bottom: 90px;
+}
+
+.img-cards{
+    width: 60;
+    height: 60;
 }
