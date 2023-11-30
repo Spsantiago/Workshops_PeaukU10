@@ -37,8 +37,8 @@
 
 
                 <div class="col-3 d-flex justify-content-end align-items-center gap-3">
-                    <button id="btn-login" class="btn ">Login</button>
-                    <button id="btn-sing" class="btn ">Sign up</button>
+                    <button id="btn-login" class="btn-out btn ">Login</button>
+                    <button id="btn-sing" class="btn-fill btn ">Sign up</button>
                 </div>
 
             </div>
@@ -100,9 +100,9 @@
 
 
 
-        <div id="cards-section2" class="justify-content-center row mt-5 options-banner">
+        <div id="cards-section2" class="justify-content-center row row-cols-3 mt-5 options-banner">
             <!-- cards  -->
-            <div class="col-4 border-0 mt-5 align-items-center justify-content-center">
+            <div class="col border-0 mt-5 align-items-center justify-content-center">
                 <div class="card p-2">
                     <div class="card-body">
                         <img src="../icons/planning.svg" alt="Sign Up"
@@ -113,7 +113,7 @@
                 </div>
             </div>
 
-            <div class="col-4 border-0 mt-5 align-items-center justify-content-center">
+            <div class="col border-0 mt-5 align-items-center justify-content-center">
                 <div class="card p-2">
                     <div class="card-body">
                         <img src="../icons/wallet.svg" alt="Sign Up" class="img-cards m-0 p-0 justify-content-start" />
@@ -123,7 +123,7 @@
                 </div>
             </div>
 
-            <div class="col-4 border-0 mt-5 align-items-center justify-content-center">
+            <div class="col border-0 mt-5 align-items-center justify-content-center">
                 <div class="card p-2">
                     <div class="card-body">
                         <img src="../icons/gps.svg" alt="Sign Up" class="img-cards m-0 p-0 justify-content-start" />
@@ -148,6 +148,143 @@
                 <p class="card-text small-text-banner mt-2 lh-lg mb-3 p-5">Discover our fantastic early booking
                     discounts & start planning your journey.</p>
             </div>
+        </div>
+
+        <div id="cards-section2" class="justify-content-center row row-cols-4 mt-1 options-banner">
+            <!-- cards  -->
+            <div class="col-md-6 col-lg-3 mb-4 ">
+                <div class="card p-0 book-card border-0">
+                    <div class="card-header p-0 border-0" style="background-color: white;">
+                        <img src="../img/imgcard04.png" alt="Madrid" class="w-100 m-0 p-0" />
+                        <!-- Botón de superposición -->
+                        <button type="button" class="btn-fill btn btn-overlay">Book Now</button>
+                    </div>
+                    <div class="card-body p-2">
+                        <div class="row">
+                            <div class="col d-flex d-flex justify-content-between px-3">
+                                <h5 class="card-title">Madrid</h5>
+                                <p class="card-text"> <img src="../icons/star.svg" />4.8</p>
+                            </div>
+                        </div>
+                        <div class="row mt-3 px-3">
+                            <div class="col px-0">
+                                <p class="card-text"><img src="../icons/gps-icon.svg" /> Spain</p>
+                            </div>
+                            <div class="col px-0 d-flex justify-content-end align-items-center">
+                                <div class="col px-0 text-end">
+                                    <!--texto del precio tachado-->
+                                    <p class="card-text precio-antes">$950</p>
+                                </div>
+                                <div class="col-6 ms-2 px-0 text-center ">
+                                    <p id="precio-actual" class="card-text tag-div">$850</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card p-0 book-card border-0">
+                    <div class="card-header p-0 border-0" style="background-color: white;">
+                        <img src="../img/imgcard02.png" alt="Italy" class="w-100 m-0 p-0" />
+                        <!-- Botón de superposición -->
+                        <button type="button" class="btn-fill btn btn-overlay">Book Now</button>
+                    </div>
+                    <div class="card-body p-2">
+                        <div class="row">
+                            <div class="col d-flex d-flex justify-content-between px-3">
+                                <h5 class="card-title">Firenze</h5>
+                                <p class="card-text"> <img src="../icons/star.svg" />4.5</p>
+                            </div>
+                        </div>
+                        <div class="row mt-3 px-3">
+                            <div class="col px-0">
+                                <p class="card-text"><img src="../icons/gps-icon.svg" /> Italy</p>
+                            </div>
+                            <div class="col px-0 d-flex justify-content-end align-items-center">
+                                <div class="col px-0 text-end">
+                                    <!--texto del precio tachado-->
+                                    <p class="card-text precio-antes">$850</p>
+                                </div>
+                                <div class="col-6 ms-2 px-0 text-center ">
+                                    <p id="precio-actual" class="card-text tag-div">$750</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card p-0 book-card border-0">
+                    <div class="card-header p-0 border-0" style="background-color: white;">
+                        <img src="../img/imgcard01.png" alt="France" class="w-100 m-0 p-0" />
+                        <!-- Botón de superposición -->
+                        <button type="button" class="btn-fill btn btn-overlay">Book Now</button>
+                    </div>
+                    <div class="card-body p-2">
+                        <div class="row">
+                            <div class="col d-flex d-flex justify-content-between px-3">
+                                <h5 class="card-title">Paris</h5>
+                                <p class="card-text"> <img src="../icons/star.svg" />4.4</p>
+                            </div>
+                        </div>
+                        <div class="row mt-3 px-3">
+                            <div class="col px-0">
+                                <p class="card-text"><img src="../icons/gps-icon.svg" /> France</p>
+                            </div>
+                            <div class="col px-0 d-flex justify-content-end align-items-center">
+                                <div class="col px-0 text-end">
+                                    <!--texto del precio tachado-->
+                                    <p class="card-text precio-antes">$699</p>
+                                </div>
+                                <div class="col-6 ms-2 px-0 text-center ">
+                                    <p id="precio-actual" class="card-text tag-div">$599</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card p-0 book-card border-0">
+                    <div class="card-header p-0 border-0" style="background-color: white;">
+                        <img src="../img/imgcard03.png" alt="uk"class="w-100 m-0 p-0" />
+                        <!-- Botón de superposición -->
+                        <button type="button" class="btn-fill btn btn-overlay">Book Now</button>
+                    </div>
+                    <div class="card-body p-2">
+                        <div class="row">
+                            <div class="col d-flex d-flex justify-content-between px-3">
+                                <h5 class="card-title">London</h5>
+                                <p class="card-text"> <img src="../icons/star.svg" />4.8</p>
+                            </div>
+                        </div>
+                        <div class="row mt-3 px-3">
+                            <div class="col px-0">
+                                <p class="card-text"><img src="../icons/gps-icon.svg" /> UK</p>
+                            </div>
+                            <div class="col px-0 d-flex justify-content-end align-items-center">
+                                <div class="col px-0 text-end">
+                                    <!--texto del precio tachado-->
+                                    <p class="card-text precio-antes">$850</p>
+                                </div>
+                                <div class="col-6 ms-2 px-0 text-center ">
+                                    <p id="precio-actual" class="card-text tag-div">$850</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
