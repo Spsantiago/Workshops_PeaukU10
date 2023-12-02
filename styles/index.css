@@ -233,6 +233,19 @@ ul{
   
   /* Section 4 */
 
+.palmeras-smart{
+    width: 6.5rem;
+}
+.color-precio-card{
+    color: #FA7436;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
   /* Section 5 testimonial */
   .testimonial{
     background-color: #F7F8FC;
