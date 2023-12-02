@@ -8,6 +8,7 @@ body {
 
 }
 
+/* Header */
 
 .container-fluid{
    /* border: #fa7436 solid 1px;*/ 
@@ -143,6 +144,7 @@ ul{
     height: 130px;
 }
 
+/* section 2 things you need to do */
 .things-you-need-to-do{
     background-color: #F7F8FC;
     width: 100vw;
@@ -158,6 +160,8 @@ ul{
     max-width: 1200px;
     margin-bottom: 90px;
 }
+
+/* Section 3 books cards */
 
 .img-cards{
     width: 10;
@@ -183,12 +187,12 @@ ul{
 .book-card {
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3); /* Sombra rosa difuminada */
+    box-shadow: 0 4px 8px #f4a079; /* Sombra rosa difuminada */
     transition: box-shadow 0.3s ease; /* Transición suave */
   }
 
   .book-card:hover {
-    box-shadow: 0 8px 16px rgba(249, 179, 214, 0.6); /* Sombra más intensa al pasar el puntero */
+    box-shadow: 0 8px 16px #f9834c; /* Sombra más intensa al pasar el puntero */
   }
   .btn-overlay {
     position: absolute;
@@ -202,5 +206,35 @@ ul{
   .card-header:hover .btn-overlay {
     opacity: 1;
   }
+
+  .btn-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+  
+  .btn-white {
+    background-color: white;
+    border: #99999980 solid 1px;
+  }
+  
+  .btn-orange {
+    background-color: #FA7436;
+  }
+
+  .btn-orange:hover{
+    background-color: #f4a079;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+   .btn-white:hover{
+    background-color: #f4a079;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
 
 
