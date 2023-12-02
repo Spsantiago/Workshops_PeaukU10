@@ -10,11 +10,6 @@ body {
 
 /* Header */
 
-.container-fluid{
-   border: #fa7436 solid 1px;
-}
-
-
 #navbar{
     justify-content: space-evenly;
     font-weight: 450;
