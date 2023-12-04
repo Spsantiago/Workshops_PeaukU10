@@ -6,7 +6,7 @@ Este repositorio contiene el código fuente y los archivos relacionados con el p
 
 ## Participantes
 
-- Aida Curiel
+
 - Santiago Paredes
 - Santiago Estrada
 
