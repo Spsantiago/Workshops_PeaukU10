@@ -346,9 +346,9 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  position: static;
+ 
   margin: 1rem;
-  transform: translateX(-25vw);
+ 
   color: #fff;
 }
 .subcribe {
@@ -364,14 +364,20 @@ ul {
   color: #f7f8fc;
 }
 .ovalos{
-  width: 8rem;
+  width: 400px;
   margin: 0 0 0 0;
+  position: absolute;
+  bottom:0;
+  left: 0;
  
 }
 .palmeras-smart2{
   width: 7rem;
   margin:0 0 auto auto;
   padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .img-correo{
  position: absolute;
